@@ -1,0 +1,211 @@
+:root{
+    --red: #e50914;
+    --black:#141414;
+}
+*{    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.menu {
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+div .sair{
+    margin-left: 40rem;
+}
+div .sair a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 1rem;
+}
+div .sair i{
+    margin-right: 1.3rem;
+    margin-left: 0;
+}
+div .sair i:hover{
+    cursor: pointer;
+}
+div .sair a:hover{
+   color: #ffffff;
+}
+div h2{
+    color: var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-left: 3rem;
+
+}
+header nav a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 1rem;
+}
+header nav a:hover{
+    color: #ffffff;
+}
+.principal {
+    font-size: 1rem;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url(../Netflix/img/gumball.jpg);
+    background-size: cover;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao {
+    margin-bottom: 2rem;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+img{
+    width: 35%;
+}
+.titulo{
+    margin-bottom: 1rem;
+    font-size: 30px;
+    margin-left: 2rem;
+}
+.botoes{
+    margin-left: 2rem;
+
+}
+.botoes i{
+    margin-right: 5px;
+}
+button{
+    width: 9rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+button:nth-child(2){
+    width: 13rem;
+    height: 3rem;
+    background-color: #808080;
+    color: #ffffff;
+}
+button:hover{
+    background-color: #D3D3D3;
+}
+button:nth-child(2):hover{
+    background-color: rgba(220,220,220,.75)
+}
+.box-filmes{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+div.cartoon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 8rem;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+.carrosel h3{
+    margin-left: 1rem;
+    font-size: 20px;
+    margin-top:1rem;
+    margin-bottom: 0;
+}
+.acao {
+    margin-top: 2rem;
+}
+.item img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 1s;
+}
+.acao img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 1s;
+}
+.aventura{
+    margin-top:2rem;
+}
+.aventura img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 1s;
+}
+.fantasia{
+    margin-top:2rem;
+}
+.fantasia img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 1s;
+}
+.esporte{
+    margin-top:2rem;
+}
+.esporte img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 1s;
+}
+.redes a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 1.5rem 2rem 1rem 2rem;
+
+}
+
+footer .redes{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    margin-top: 3rem;
+
+}
+footer .redes:hover{
+	transform: scale(1.1);
+    transition: 1s;
+}
+.fim{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.fim p{
+    font-size: 20px;
+}
+@media screen and (max-width:1000px){
+    h3{
+        margin-top: 70px;
+    }
+    .principal{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 700px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+}
