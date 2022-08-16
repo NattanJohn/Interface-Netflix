@@ -7,7 +7,7 @@
   </p>
   
   ## Deploy da Aplicação com GitHub Pages: :dash:
-https://nattanjohn.github.io/Clone-Disney-Plus/
+https://nattanjohn.github.io/Interface-Netflix/
   
 <h3>TÉCNOLOGIAS</h3>
   HTML</br>
