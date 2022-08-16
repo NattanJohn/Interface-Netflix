@@ -6,6 +6,9 @@
   <img width="600" src="src/gif.gif">
   </p>
   
+  ## Deploy da Aplicação com GitHub Pages: :dash:
+https://nattanjohn.github.io/Clone-Disney-Plus/
+  
 <h3>TÉCNOLOGIAS</h3>
   HTML</br>
   CSS</br>
